@@ -31,6 +31,7 @@ void merge_two_sorted_arr(int a1[], int a2[], int m, int n) {
 //shifting method 
 //handled many cases(equal elements aagye to, j mei greater element reh gya aur i last mei pahuch gya..iske liye if lgaya h, >= lgaya h wrna element choot jayenge kisi ek arr mei(equal element choot jayega)) revise on your own
 //TC : O((m+n)×m) m+n for outer loop running and m for worst case inner loop running sc: O(1)
+//this is not working for all cases like if we have 0 and negative nos
 void m2sa(int a1[], int a2[], int m, int n) {
     int last_pos = m;
     int i = 0, j = 0;
